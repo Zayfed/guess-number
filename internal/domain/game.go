@@ -25,7 +25,6 @@ func (g *Game) GameCycle() {
 	attempts, maxNum := chooseDifficulty()
 
 	answer := rand.IntN(maxNum + 1)
-	fmt.Println(answer)
 
 	guesses := make([]int, 0)
 
